@@ -1,0 +1,165 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* log in form  */
+.login_page
+{
+     padding: 25px;  
+     max-width: 90%;
+     margin: auto;  
+}
+h1
+{
+    margin-bottom:  3px;
+}
+.links
+{
+    color: rgb(34 123 127);
+}
+.grayP ,del
+{
+    display: inline-block;
+    color:gray ;
+}
+
+.part1 input,.part1 label
+{
+    display: block;
+    width: 326px;
+    margin-bottom: 10px;
+}
+.part1 input
+{
+    border: 1px solid #B0B0B0;
+    border-radius: 5px;
+    padding: 6px;
+}
+ .part2 
+{
+    display: flex;
+    gap: 20px;
+
+} 
+.google{
+ 
+    width: 30px;
+}
+.part3 button
+{
+  
+    width: 334px;
+   
+    border: 1px solid #B0B0B0;
+    border-radius: 5px;
+} 
+.login
+{
+    display: block;
+    width: 334px;
+    padding: 11px;
+    background-color: #11797f;
+    border: 1px solid #B0B0B0;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+
+}   
+.signup
+{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+  
+}
+/* sign up section */
+.signup_page
+{
+    padding: 7px;
+    max-width: 53%;
+    margin: 0 auto;  
+
+}
+ .data
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem; 
+    align-items: center;
+      width: 100%;
+} 
+.data .left,
+.data .right {
+    min-width: 250px; 
+}
+.data input ,.data label ,.data select
+{
+   
+    display: block;
+    width: 333px;
+      max-width: 100%; 
+  
+    
+}
+.data input , .data select{
+border: 1px solid #B0B0B0;
+border-radius: 5px;
+padding: 8px;
+margin-bottom: 8px;
+}
+.down{
+    max-width: 100%;
+}
+.down button
+{
+    border: 1px solid #B0B0B0;
+    width: 46rem;
+    max-width: 100%;
+    border-radius: 5px;
+}
+.register
+{
+    padding: 10px;
+    background-color: #11797f;
+    color: white;  
+}
+
+/* shopping cart */
+.cart
+{
+  
+    margin: auto;
+    padding: 29px;
+    max-width: fit-content;
+ border: 1px solid rgb(238, 233, 233); 
+ box-shadow: 10px 10px 26px white;
+ margin-bottom: 203px;
+ border-radius: 15px;
+ margin-top: 20px;
+}
+.cartimg
+{
+    width: 18rem;
+    border: 1px solid  #B0B0B0 ;
+    border-radius: 5px;
+}
+.price
+{
+    color: red;
+    font-weight: 7px;
+    display: inline-block;
+    margin-top: -4px;
+
+}
+#cart
+{
+    background-color: #11797f;
+    border-radius: 7px;
+    padding: 10px;
+    width: 300px;
+    display: block;
+    border: 1px solid #B0B0B0;
+}
